@@ -1,7 +1,7 @@
 package frc.robot.SensorClasses;
 import edu.wpi.first.wpilibj.DigitalInput;
 
-public class RightSightDiffuseSensor {
+public class UltrasonicAnalogSensor {
     int port;
     DigitalInput sensor;
   
@@ -12,7 +12,7 @@ public class RightSightDiffuseSensor {
     public int getPort() {
         return this.port;
     }
-    public boolean getDistance() {
+    public boolean get() {
         return sensor.get();
     }
 }
