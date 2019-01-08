@@ -1,12 +1,12 @@
 # SensorClasses
 ###### Contains classes for the following sensors:
 - Push Button Sensor
- - Boolean
+     - Boolean
 - Ultrasonic Sensor
- - Double (Floating Point)
- - Outputs distance in inches
+    - Double (Floating Point)
+    - Outputs distance in inches
     - Requires UltrasonicSensor.setInchesPerVolt(inchesPerVolt) to work, when in doubt do 8.5
- - Different than WPILib's Analog Sensor
+    - Different than WPILib's Analog Sensor
 - Hall Effect Sensor
     - *Ask Addison since he did this one*
 - RightSight Industrial Sensor
