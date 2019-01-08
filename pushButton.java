@@ -1,4 +1,4 @@
-package frc.robot;
+package frc.robot.SensorClasses;
 import edu.wpi.first.wpilibj.DigitalInput;
 
 public class pushButton{

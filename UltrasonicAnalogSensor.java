@@ -1,26 +1,30 @@
 package frc.robot.SensorClasses;
-import edu.wpi.first.wpilibj.DigitalInput;
+import edu.wpi.first.wpilibj.AnalogInput;;
 
 public class UltrasonicAnalogSensor {
     int port;
     double distance;
-    double voltInches;
-    DigitalInput sensor;
+    double inchesPerVolt;
+    double voltage;
+    AnalogInput sensor;
   
     public void UltrasonicSensor(int port) {
         this.port = port;
-        sensor = new DigitalInput(port);
-        // Sensor and DigitalInput are screwed up and we need to go over them again
+        sensor = new AnalogInput(port);
     }
     public int getPort() {
         return this.port;
     }
-    public void setVoltInches(double voltInches) {
+    public void setInchesPerVolt(double inchesPerVolt) {
+        this.inchesPerVolt = inchesPerVolt;
     }
     public double getDistance() {
-        distance = voltInches*voltage
-        // Get the voltage and multiply by volt-inches to get the distance!
-        // Remember to set the distance!
+        try {
+        distance = inchesPerVolt * sensor.getVoltage();
+        } catch (Exception e) {
+            System.out.println("Error with distance calculation! Make sure to setVoltInches and check if voltage is being input.");
+        }
+        // Distance is how many inches per volt multiplied by the voltage output by the sensor
         return distance;
     }
 }
