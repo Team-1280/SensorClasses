@@ -1,4 +1,4 @@
-# SensorClasses
+# Sensor Classes
 ###### Contains classes for the following sensors:
 - Push Button Sensor
      - Boolean
