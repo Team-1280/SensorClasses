@@ -1,2 +1,0 @@
-# SensorClasses
-Sensor Classes library 
