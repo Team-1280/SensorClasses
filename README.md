@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sensor Classes
 ###### Contains classes for the following sensors:
 - Push Button Sensor
@@ -15,3 +16,7 @@
     - Diffuses light and outputs signal if any light returns to the housing
     - 500mm range, *appears to be* 5-degree FOV
     - Does not measure distance, only object presence within ranging area
+=======
+# SensorClasses
+Sensor Classes library 
+>>>>>>> 0cbfcd70ba1b855779c2a7b461aa21b0a65f93ce
