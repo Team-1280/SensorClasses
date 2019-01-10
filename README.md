@@ -5,7 +5,7 @@
 - Ultrasonic Sensor
     - Double (Floating Point)
     - Outputs distance in inches
-    - Requires UltrasonicSensor.setInchesPerVolt(inchesPerVolt) to work, when in doubt do 8.5
+    - Constructor has (por, inchesPerVolt) where inchesPerVolt is the amount of inches in one volt output
     - Different than WPILib's Analog Sensor
 - Hall Effect Sensor
     - Boolean
