@@ -1,4 +1,4 @@
-package frc.robot.SensorClasses.SensorClassesIntegration.src.main.java.frc.robot.SensorClasses;
+package frc.robot.SensorClasses;
 import edu.wpi.first.wpilibj.AnalogInput;
 
 public class UltrasonicAnalogSensor {
