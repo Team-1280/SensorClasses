@@ -2,6 +2,7 @@
 ##### Contains classes for the following sensors:
 - Push Button Sensor
      - Boolean
+     - If you don't know what a button is please look it up
 - Ultrasonic Sensor
     - Double (Floating Point)
     - Outputs distance in Centimeters
