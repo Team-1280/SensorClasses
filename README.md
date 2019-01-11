@@ -8,7 +8,7 @@
     - Constructor has (port, cmPerVolt) where cmPerVolt is the number of Centimeters (cm) in every volt output
     - It appears to be 2V per Centimeter so just make a constant (final) for that
     - Different than WPILib's Analog Sensor
-    - Check [MaxBotix documentation](https://www.maxbotix.com/Ultrasonic_Sensors/MB1013.htm "Model 1013 Ultrasonic Sensor Documentation") for more information
+    - Check [MaxBotix documentation](https://www.maxbotix.com/Ultrasonic_Sensors/MB1013.htm "Model 1013 Ultrasonic Sensor Store Page (and documentation)") for more information on the specific sensor intended for use
 - Hall Effect Sensor
     - Boolean
     - Detects Magnet
