@@ -19,3 +19,6 @@
     - 500mm range, *appears to be* 5-degree FOV
     - *Seems* to not need retro-reflective material to detect object presence but it probably helps
     - Does not measure distance, only object presence within ranging area
+- NavX MXP Gyroscope
+    - Floating point Yaw value for rotation
+    - Multiple ways to return wanted Yaw value from gyroscope
