@@ -7,10 +7,8 @@ import edu.wpi.first.wpilibj.SPI.Port;
 
 
 public class navXGyro {
-    int port;
     AHRS gyroscope;
-    public navXGyro(int kPort) {
-        this.kPort = port;
+    public navXGyro() {
         gyroscope = new AHRS(SPI.Port.kMXP); //Note: The Constructor asks for an integer but SPI.Port is an enum class so this might/should/will work?
     }
     public void reset() { //"Resets the Yaw gyro" (straight from API Documentation)
